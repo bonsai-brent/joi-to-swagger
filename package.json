@@ -31,18 +31,18 @@
     "eslint-config-twipped": "~3.0.0",
     "eslint-plugin-node": "~8.0.1",
     "eslint-plugin-promise": "~4.1.1",
-    "joi": "~14.3.1",
+    "@hapi/joi": "~15.1.1",
     "tap": "~12.6.1",
     "tapsuite": "~1.1.1"
   },
   "peerDependencies": {
-    "joi": ">= 13"
+    "@hapi/joi": ">= 14"
   },
   "files": [
     "index.js",
     "index.d.ts"
   ],
   "dependencies": {
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.15"
   }
 }
